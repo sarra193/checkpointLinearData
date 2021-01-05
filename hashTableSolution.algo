@@ -4,6 +4,8 @@ VAR
       sumDist,sumOver :INTEGER;
 
 BEGIN
+      read(set1);
+      read(set2);
       FOR i FROM 0 TO set2.length -1 STEP 1  DO
             IF (set1.lookup(set2.get(i) = TRUE) THEN
                   count := set1.get(set2.get(i));
